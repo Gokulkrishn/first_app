@@ -2,4 +2,4 @@ steps:
 - name: 'gcr.io/cloud-builders/docker'
   args: ['build','-t','gcr.io/mgmt-cluster-378004/first-app','.']
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push','-t','gcr.io/mgmt-cluster-378004/first-app']
+  args: ['push','gcr.io/mgmt-cluster-378004/first-app']
