@@ -59,6 +59,6 @@ def get_iris():
     ax.zaxis.set_ticklabels([])
 
     fig.savefig('iris.png')
-    file = open('iris.ong', mode='rb')
+    file = open('iris.png', mode='rb')
 
     return StreamingResponse(file,media_type='image/png')
