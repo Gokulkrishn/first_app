@@ -1,7 +1,7 @@
-from fastapi import Fastapi
+from fastapi import FastAPI
 from fastapi.responses import StreamingResponse
 
-app = Fastapi()
+app = FastAPI()
 
 @app.get('/iris')
 def get_iris():
