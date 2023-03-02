@@ -1,5 +1,5 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build','-t','gcr.io/mgmt-cluster-378008/first-app','.']
+  args: ['build','-t','gcr.io/mgmt-cluster-378004/first-app','.']
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push','-t','gcr.io/mgmt-cluster-378008/first-app']
+  args: ['push','-t','gcr.io/mgmt-cluster-378004/first-app']
